@@ -1,6 +1,24 @@
-{% extends 'base.html'%}
+{% extends 'base.html' %}
 
-{% block content %}
-    <h2>welcome</h2>
-    <button class="btn btn-success btn-sm">hello</button>
-{% endblock%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block styles %}
+    {{ super() }}
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}" type="text/css">
+
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+    <div class="container text-center">
+        <img src="{{ url_for('static', filename='images/bulb.jpg') }}" alt="">
+        <div class="text-content">
+            <h1><span style="color:blue;">The best pitchers have a short term memory and a bullet proof confidence.</h1>
+        </div>
+    </div>
+   
+
+    {% endblock %}
