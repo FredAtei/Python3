@@ -1,14 +1,18 @@
-# Password-Locker
+# The pitch APP
 <table>
 <tr>
 <td>
-This application was developed using Python and its functions as a password locker that helps people keep credentials of their accounts that exist and that may be wanted to sign up for.
+The pitch app allows its users to put their pitches down which then allows signed up users to comment and upvote or downvote the pitch 
 </td>
 </tr>
 </table>
 
 ## Author
 Fred Atei
+
+## Figma
+
+[Click to View]()
 
 ### Development
 Want to contribute? Great!
@@ -25,9 +29,9 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://fredatei.github.io/Github-search/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://fredatei.github.io/Python3/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://fredatei.github.io/Github-search/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://fredatei.github.io/Python3/issues/new). Please include sample queries and their corresponding results.
 
 
 ## Built with 
@@ -43,6 +47,6 @@ Reach Out: akamaatei@gmail.com
 ## Copyright
 © 2020
 
-## [License](https://github.com/FredAtei/Password-Locker/blob/master/LICENSE)
+## [License](https://github.com/FredAtei/Python3/blob/master/LICENSE)
 
-MIT © [Fred Atei ](https://github.com/FredAtei/Password-Locker)
+MIT © [Fred Atei ](https://github.com/FredAtei/Python3)
