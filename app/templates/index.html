@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +13,17 @@
 <body>
     {% block content %}
     <div class="container text-center">
-        <img src="{{ url_for('static', filename='images/bulb.jpg') }}" alt="">
         <div class="text-content">
             <h1><span style="color:blue;">The best pitchers have a short term memory and a bullet proof confidence.</h1>
+              
+            <h2>SignUp to view, Comment, upVote or DownVote and Create a pitch</h2>    
         </div>
+
+        
     </div>
    
 
     {% endblock %}
+    
+</body>
+</html>

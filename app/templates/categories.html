@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block styles %}
+    {{ super() }}
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/profile.css')}}">
+
+
+    {% endblock %}
+   
+</head>
+<body>
+    
+            <!-- Navbar block  --> 
+            {% block navbar %}
+            {% include 'navbar.html' %}
+            {% endblock %}  
+
+            {% block content%}
+    <h3 class="text-center" style="font-weight: bolder;">All Pitches</h3>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default" >
+                <div class="panel-heading">
+                  A traveling mobile education system
+                </div>
+                <div class="panel-body">
+                  <p>
+                    I want to start a mobile school that visits such villages around the year, camps there for a few months & we teach both children & grown ups. Curriculum would include not only basic education but also vocational training, so people can work/earn their living & can fight poverty. Mobile schools-workshops.
+                  </p>
+                  
+                </div>                   
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default" >
+                <div class="panel-heading">
+                  The 5-in-1 "winner"
+                </div>
+                <div class="panel-body">
+                  <p>
+                    Earthquake proof office chairs
+Predictive horns for cars
+Twitch.tv for putting together Ikea furniture
+Wearable fog machines
+Bubble prediction algorithms
+                  </p>
+                </div>                   
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default" >
+                <div class="panel-heading">
+                    Music
+                 </div>   
+                <div class="panel-body">
+                  <p>
+                    Music to my ears 
+                  </p>
+                  
+                </div>                   
+            </div>
+
+        </div>
+        
+                <div class="col-md-4">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                          Greenhouse prisons producing chefs out of inmates
+                        </div>
+                        <div class="panel-body">
+                        <p>
+                          Turning prisons into greenhouses, utilizing low-risk prisoners as groundskeepers and gardeners, simultaneously educating them to become chefs as rehabilitation into poverty-heavy cities.
+                        </p>
+                        
+                        </div>                   
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                            Books
+                        </div>
+                        <div class="panel-body">
+                        <p>
+                            Don't Judge a book by its cover
+                        </p>
+                        
+                        </div>                   
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                          Rent-A-Swag
+                        </div>
+                        <div class="panel-body">
+                        <p>
+                          Rent-A-Swag'" is a service where I rent out high-end clothing to teens, tweens, and everything-in-between.
+                        </div>                   
+                    </div>
+                </div>
+                     
+  {%endblock %}          
+</body>
+</html>
